@@ -29,7 +29,7 @@ services:
     container_name: express-app
     restart: always
     ports:
-      - "3000:3000"
+      - "3000:5004"
     environment:
       MONGO_URI: mongodb://localhost:27017/mydb
     depends_on:
