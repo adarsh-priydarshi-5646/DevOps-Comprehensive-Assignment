@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create axios instance
 const API = axios.create({
-  baseURL: "http://127.0.0.1:5000/api",
+  baseURL: "http://13.127.210.184:5000/api",
 });
 
 // Get all users

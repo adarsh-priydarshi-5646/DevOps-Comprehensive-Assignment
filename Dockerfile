@@ -1,0 +1,7 @@
+FROM node:20alpine
+WORKDIR /app
+COPY . .
+RUN cd backend && npm install
+WORKDIR /app/backend
+EXPOSE 5000
+CMD ["npm", "server.js"]
