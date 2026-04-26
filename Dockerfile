@@ -3,5 +3,5 @@ WORKDIR /app
 COPY . .
 RUN cd backend && npm install
 WORKDIR /app/backend
-EXPOSE 5000
+EXPOSE 3000
 CMD ["npm", "server.js"]
